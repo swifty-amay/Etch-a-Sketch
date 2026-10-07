@@ -7,6 +7,13 @@ for (let i = 0; i < 16; i++) {
         const squareGrid = document.createElement("div");
         squareGrid.classList.add("square");
         squareGridContainer.appendChild(squareGrid);
+        squareGrid.addEventListener("mouseenter", () => {
+            squareGrid.style.backgroundColor = "darkgreen";
+        });
+        // squareGrid.addEventListener("mouseleave", () => {
+        //     squareGrid.style.backgroundColor = "green";
+        // });
     }
     container.appendChild(squareGridContainer);
 }
+
