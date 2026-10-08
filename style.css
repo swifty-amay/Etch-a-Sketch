@@ -31,3 +31,21 @@ h1 {
     font-family: fantasy;
     text-decoration: underline;
 }
+
+.header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    position: absolute;
+    left: 10px;
+    padding: 5px;
+    margin-top: -10px;
+    font-family: fantasy;
+    background-color:rgb(239, 91, 37);
+    color: aliceblue;
+}
